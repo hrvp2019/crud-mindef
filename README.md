@@ -1,6 +1,4 @@
-# CRUD Básico en Spring Boot
-
-Este proyecto es un ejemplo de una aplicación CRUD (Create, Read, Update, Delete) utilizando Spring Boot en su última versión. La aplicación permite gestionar una entidad básica llamada `Book` con los atributos `id`, `title`, `author`, `pages`, `price` e `image`. La imagen que vamos a seleccionar será almacenada en Cloudinary
+# CRUD Spring Boot MD
 
 ## Requisitos
 
@@ -13,27 +11,10 @@ Este proyecto es un ejemplo de una aplicación CRUD (Create, Read, Update, Delet
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/SaulM12/crud-example-backend.git
-    cd crud-example-backend
+    git clone https://github.com/hrvp2019/crud-mindef.git
+    cd crud-md
     ```
 
-2. Construye el proyecto usando Maven:
-    ```bash
-    mvn clean install
-    ```
-
-3. Configura la base de datos en el archivo `src/main/resources/application.properties`:
-    ```properties
-    spring.datasource.url=jdbc:postgresql://localhost:5432/tu_base_de_datos
-    spring.datasource.username=tu_usuario
-    spring.datasource.password=tu_contraseña
-    spring.jpa.hibernate.ddl-auto=update
-    ```
-
-4. Inicia la aplicación:
-    ```bash
-    mvn spring-boot:run
-    ```
 
 
 
